@@ -1,0 +1,19 @@
+Topic和Queue的最大区别在于
+Topic是以广播的形式，通知所有在线监听的客户端有新的消息，没有监听的客户端将收不到消息；
+而Queue则是以点对点的形式通知多个处于监听状态的客户端中的一个。
+
+JMS消息格式
+MapMessage -- key-value键值对
+TextMessage -- 字符串对象
+ObjcetMessage -- 一个序列化的Java对象
+ByteMessage -- 一个未解释字节的数据流
+StreamMessage -- Java原始值的数据流
+
+启动mq命令：
+cd /apache-activemq-5.14.0/bin
+./activemq start
+netstat -anp|grep 61616
+
+
+访问activemq  web管理页面：
+http://47.98.237.88:8161/admin
