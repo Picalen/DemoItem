@@ -1,4 +1,4 @@
-package com.test.demo;
+package demo;
 
 /**
  * 测试
