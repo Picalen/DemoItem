@@ -1,4 +1,4 @@
-package com.algorithm.demo;
+package com.algorithm.demo.mix;
 
 /**
  * 一副从1到n的牌，每次从牌堆顶取一张放桌子上，再取一张放牌堆底，直到手机没牌，

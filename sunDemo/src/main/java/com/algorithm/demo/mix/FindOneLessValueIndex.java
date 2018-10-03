@@ -1,4 +1,4 @@
-package com.algorithm.demo.list;
+package com.algorithm.demo.mix;
 
 /**
  * 在数组中寻找一个局部最小位置
