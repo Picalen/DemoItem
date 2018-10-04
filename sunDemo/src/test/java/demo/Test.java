@@ -28,14 +28,21 @@ public class Test {
     }
 
     public static void main(String args[]) {
-        Test test1 = new Test();
-        test1.aMethod();
-        System.out.println(test1.aMethod());
-        Test test2 = new Test();
-        test2.bMethod();
-        System.out.println(test2.bMethod());
-        Test test3 = new Test();
-        Test.cMethod();
-        System.out.println(Test.cMethod());
+        int month=16;
+        int numbers = generateNumbers(month)+1;
+        System.out.println("所有兔子为"+numbers+"对");
     }
+
+    private static int generateNumbers(int n){
+        if(n-7<0){
+            return 0;
+        }else if(n-7==0){
+            return 1;
+        }else {
+            int num1 = (n-7)/3+1;
+            return generateNumbers(n-7)+num1;
+        }
+    }
+
+
 }

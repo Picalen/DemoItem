@@ -1,4 +1,4 @@
-package com.algorithm.demo.graph;
+package com.algorithm.demo.graph.model;
 
 public class Edge {
 	public int weight;
