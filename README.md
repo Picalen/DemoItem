@@ -6,6 +6,9 @@
 
 # algorithm.demo文件夹：
 存储一些常见算法的demo
+    # algorithm.demo.node  常见链表算法
+    # algorithm.demo.heap  常见堆算法
+    # algorithm.demo.sort  常见排序算法
 
 # deadLock.demo文件夹：
 存储死锁的基本用法demo及检测
